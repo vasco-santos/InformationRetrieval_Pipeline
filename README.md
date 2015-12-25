@@ -13,11 +13,11 @@ The Project has to be compiled before starting the execution.
 
 **(1)** Index a document collection without a Stopwords filter and with no Porter Stemmer
 
-`java -Xmx512M -jar dist/ri_p2_63832_64191.jar -m 512 -i "/home/vsantos/Dropbox/Cadeiras/RI/Europarl-v7-en/"`
+`java -Xmx512M -jar dist/ri_p2_63832_64191.jar -m 512 -i [collection_url]`
 
 **(2)** Index a document collection with Stopwords filter and Porter Stemmer:
 
-`java -Xmx512M -jar dist/ri_p2_63832_64191.jar -m 512 -i "/home/vsantos/Dropbox/Cadeiras/RI/Europarl-v7-en/" -dsw -ps`
+`java -Xmx512M -jar dist/ri_p2_63832_64191.jar -m 512 -i [collection_url] -dsw -ps`
 
 **(3)** Search Pipeline
 
